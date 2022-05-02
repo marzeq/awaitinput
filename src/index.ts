@@ -14,4 +14,3 @@ export const input = async (question?: string): Promise<string> => {
 	})
 }
 
-export default input
