@@ -1,5 +1,5 @@
 {
-    "name": "awaitinput",
+    "name": "@marzeq/awaitinput",
     "description": "Async/await input function",
     "version": "1.0.0",
     "author": {
