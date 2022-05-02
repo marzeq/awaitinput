@@ -1,0 +1,23 @@
+{
+    "name": "awaitinput",
+    "description": "Async/await input function",
+    "version": "1.0.0",
+    "author": {
+        "name": "marzeq",
+        "url": "https://marzeq.me/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/marzeq/awaitinput.git"
+    },
+    "dependencies": {
+        "@types/node": "^17.0.31"
+    },
+    "devDependencies": {
+        "rimraf": "^3.0.2",
+        "typescript": "^4.5.4"
+    },
+    "scripts": {
+        "start": "rimraf dist/ && tsc && node dist/index.js"
+    }
+}
